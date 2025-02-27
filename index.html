@@ -98,6 +98,8 @@
             font-size: 16px;
             cursor: pointer;
             transition: background-color 0.3s;
+            margin-right: 4px;
+
         }
         
  
@@ -288,7 +290,7 @@
         }
         
         .features-grid {
-            display: grid;
+            display: flex;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 20px;
             margin-bottom: 30px;
@@ -466,19 +468,38 @@
             h1 {
                 font-size: 34px;
             }
-            .input-container {
+            .features-grid {
+    display: grid;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+      .input-container {
     background-color: #e9d3fe;
     border-radius: 8px;
     padding: 5px;
-    display: flex
-;
+    display: flex;
     margin: 20px 0;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     width: 970px;
     border: 1px solid white;
 }
+.instructions-header {
+    color: #c44fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+    margin-left: 200px;
+}
+.phone-guide {
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
 
-
+}
             button {
                 padding: 15px 30px;
                 font-size: 18px;
